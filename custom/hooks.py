@@ -129,11 +129,11 @@ doctype_js = {
 #		"on_trash": "method"
 #	}
 # }
-doc_events = {
-	"ToDo": {
-		"on_update": "custom.utils.custom_on_update",
-	}
-}
+# doc_events = {
+# 	"ToDo": {
+# 		"on_update": "custom.utils.custom_on_update",
+# 	}
+# }
 # Scheduled Tasks
 # ---------------
 
