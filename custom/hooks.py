@@ -30,6 +30,10 @@ app_license = " "
 
 # include js in doctype views
 # doctype_js = {"doctype" : "public/js/doctype.js"}
+doctype_js = {
+    "ToDo" : "public/js/to_do.js"
+    }
+
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
@@ -125,7 +129,11 @@ app_license = " "
 #		"on_trash": "method"
 #	}
 # }
-
+doc_events = {
+	"ToDo": {
+		"on_update": "custom.utils.custom_on_update",
+	}
+}
 # Scheduled Tasks
 # ---------------
 
